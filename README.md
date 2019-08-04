@@ -18,9 +18,6 @@ Características que permitem a aplicação de PF em JS
 - Arrow Functions
 - Spread
 
-
-
-################################################
 ### Funções como Objetos de Primeira Ordem (Functions as First Class Objects)
 
 Funções que poder ser guardadas em variáveis, passar/receber funções como parâmetros, retornar outras funções;
@@ -33,4 +30,6 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
   - Função capaz de realizar um encapsulamento e momorização do seu escopo
 
 
-https://github.com/PacktPublishing/Mastering-JavaScript-Functional-Programming
+
+## CAP 2 - Thinking Functionally
+
