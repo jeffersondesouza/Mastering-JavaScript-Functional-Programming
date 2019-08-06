@@ -41,6 +41,9 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 ## Starting Out with Functions - A Core Concept
 
 - O JS permite que se definam funções de em vária maneiras (Noemada, anonimas, expressões anonima, expressões nomeada, Contrutoras, arrow Function, Generators, async...);
-- Essa flexibilidade, e possibilidade de criação de clousures e funções de High Order functions, principalmente arrow functions pode ser de grande valia na progamação funcional.
-- In Lambda Calculos Terms: Parameters are placeholders for potential values that will be passed, and arguments are the actual values passed to the function.
-  -In lambda style, functions only consist of a result;
+- Essa flexibilidade, e possibilidade de criação de clousures e funções de High Order functions, principalmente arrow functions pode ser de grande valia na progamação funcional;
+- In Lambda Calculos Terms: Parameters are placeholders for potential values that will be passed, and arguments are the actual values passed to the function;
+- In lambda style, functions only consist of a result;
+- In the lambda calculus, you don't write functions with several parameters, but only with
+one, by applying something called currying;
+- Essa técnica ajuda em situações que desejamos fazer Pipe de funções;

@@ -1,6 +1,7 @@
 const once = fn => {
   let done = false;
   return (...args) => {
+    console.log('args:', args)
     if (!done) {
       done = true;
       fn(...args);
@@ -16,10 +17,6 @@ const comprar = (produto, valor) => {
 
 const comprarOnce = once(comprar);
 
-comprar("bola", 1000);
-comprar("bola", 1000);
-comprar("bola", 1000);
-comprar("bola", 1000);
 
 comprarOnce("bola", 1000);
 comprarOnce("bola", 1000);
