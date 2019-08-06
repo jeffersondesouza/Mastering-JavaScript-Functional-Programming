@@ -30,6 +30,8 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
   - Função capaz de realizar um encapsulamento e momorização do seu escopo
 
 
-
 ## CAP 2 - Thinking Functionally
+  - Avaliar os problemas de modo a Abstrair pontos reutilizaveis em novs funções;
+  - Funções de alta ordem
+  - Testes
 
