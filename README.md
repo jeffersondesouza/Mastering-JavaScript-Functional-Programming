@@ -66,3 +66,11 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
   update the global state
 
 ## CAP 5: Programming Declaratively - A Better Style
+
+- O uso de Hihg Order Function, torna o código compcto, legível, consiso e fácil de entender;
+- .map(), .reduce(), .filter();
+- Estas gunções tornam o trabalho mais declarativo, focando em o que fazer e nao como fazer;
+- In mathematics, a map is a transformation of elements from a domain into elements
+  of a codomain;
+
+## CAP 6 : Producing Functions - Higher- Order Functions
