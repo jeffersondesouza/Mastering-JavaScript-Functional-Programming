@@ -2,7 +2,7 @@
 
 https://github.com/PacktPublishing/Mastering-JavaScript-Functional-Programming
 
-## CAP 1 - Becoming Functional – Several Questions
+## CAP 1: Becoming Functional - Several Questions
 
 Queremos para nosso projeto (e podemos alcançar com PF):
 
@@ -32,13 +32,13 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 
 - Função capaz de realizar um encapsulamento e momorização do seu escopo
 
-## CAP 2 - Thinking Functionally
+## CAP 2: Thinking Functionally
 
 - Avaliar os problemas de modo a Abstrair pontos reutilizaveis em novs funções;
 - Funções de alta ordem
 - Testes
 
-## Starting Out with Functions - A Core Concept
+## CAP 3: Starting Out with Functions - A Core Concept
 
 - O JS permite que se definam funções de em vária maneiras (Noemada, anonimas, expressões anonima, expressões nomeada, Contrutoras, arrow Function, Generators, async...);
 - Essa flexibilidade, e possibilidade de criação de clousures e funções de High Order functions, principalmente arrow functions pode ser de grande valia na progamação funcional;
@@ -48,3 +48,14 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
   one, by applying something called currying;
 - Essa técnica ajuda em situações que desejamos fazer Pipe de funções;
 - This programming style is called pointfree style or tacit style. Ex; fetch("some/remote/url").then(processResult)
+
+### CAP 4: Behaving Properly - Pure Functions
+
+- Uma função pura deve atender a duas condições básicas:
+  1 - Para um dado um argumento, a função deve sempre retornar o mesmo resultado;
+  2 - Ao calcular um resulado, uma função nao deve causar side effects
+- Idempotent function can be called as many times as desired, and will always produce
+  the same result;
+- function should do one thing, only one thing, and nothing but that thing.
+- Transparência referencial é a propriedade que permite substituir um
+  expressão com o seu valor, e não alterar os resultados de tudo o que você estava fazendo. (Basicamente é a capacidade da função "permitir ser refatorada" mantendo seu estado )
