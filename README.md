@@ -60,3 +60,9 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 - Transparência referencial é a propriedade que permite substituir um
   expressão com o seu valor, e não alterar os resultados de tudo o que você estava fazendo. (Basicamente é a capacidade da função "permitir ser refatorada" mantendo seu estado )
 - Side effects: some change in state;
+- Provide whatever is needed of the global state to the function, as arguments
+- If the function needs to update the state, it shall not do it directly, but rather produce a new version of the state, and return it
+- It will be the responsibility of the caller to take the returned state, if any, and
+  update the global state
+
+## CAP 5: Programming Declaratively - A Better Style
