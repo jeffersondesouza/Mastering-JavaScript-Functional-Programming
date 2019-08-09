@@ -74,3 +74,7 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
   of a codomain;
 
 ## CAP 6 : Producing Functions - Higher- Order Functions
+
+### Wrapping functions
+
+- Functions that provide a wrapper around other function, to enhance it in some way, but without altering its original objective
