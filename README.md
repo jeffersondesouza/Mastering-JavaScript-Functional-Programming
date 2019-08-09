@@ -59,3 +59,4 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 - function should do one thing, only one thing, and nothing but that thing.
 - Transparência referencial é a propriedade que permite substituir um
   expressão com o seu valor, e não alterar os resultados de tudo o que você estava fazendo. (Basicamente é a capacidade da função "permitir ser refatorada" mantendo seu estado )
+- Side effects: some change in state;
