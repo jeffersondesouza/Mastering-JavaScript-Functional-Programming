@@ -84,4 +84,18 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 
 - Esta técinica modifica o comportamento original da função utilizada;
 
-## Transforming Functions - Currying and Partial Application
+## CAP 7 - Transforming Functions - Currying and Partial Application
+
+### Currying
+
+- Uma técninica de funções, onde ao invés de termos um função com muito parâmetros, temos uma sequência de funçoẽs unitárias;
+- is the process of transforming an m-ary function (that is, a function of arity m) into a sequence of m unary functions
+
+### Partial application
+- Another time-honored FP transformation, which produces new versions of functions by fixing some of their arguments;
+- Is the idea of providing n arguments to a m-ary function;
+- Being n less than or equal to m, to transform it into a function with (m-n) parameters. Each time you provide some arguments, a new function is produced, with smaller arity. When you provide the last arguments, the actual calculations are performed
+
+### partial currying
+
+- that can be seen as a mixture of the two previous transformations
