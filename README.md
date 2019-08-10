@@ -78,3 +78,8 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 ### Wrapping functions
 
 - Functions that provide a wrapper around other function, to enhance it in some way, but without altering its original objective
+- Similar a um Decorator
+
+### Altering functions
+
+- Esta técinica modifica o comportamento original da função utilizada;
