@@ -83,3 +83,5 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 ### Altering functions
 
 - Esta técinica modifica o comportamento original da função utilizada;
+
+## Transforming Functions - Currying and Partial Application
