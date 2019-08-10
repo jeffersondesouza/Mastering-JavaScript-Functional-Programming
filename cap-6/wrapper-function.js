@@ -10,3 +10,8 @@ function subtract(a, b) {
 
 runLogging(subtract)(1, 2);
 runLogging(subtract)(10, 2);
+
+const memoize = fn => {
+  let cache = {};
+  return x => (x in cache ? cache[x] : (cache[x] = fn(x)));
+};
