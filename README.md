@@ -108,3 +108,5 @@ Pipelining and composition are techniques for setting up functions to work in se
 - Pipelining, a way to join functions together in similar way to Unix/Linux pipes
 - Chaining, which may be considered a variant of pipelining, but restricted to objects
 - Composing, which is a classic operation with its origins in basic computer theory
+
+## CAP 9 - Designing Functions - Recursion
