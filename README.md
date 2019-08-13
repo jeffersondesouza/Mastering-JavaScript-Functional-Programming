@@ -92,6 +92,7 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 - is the process of transforming an m-ary function (that is, a function of arity m) into a sequence of m unary functions
 
 ### Partial application
+
 - Another time-honored FP transformation, which produces new versions of functions by fixing some of their arguments;
 - Is the idea of providing n arguments to a m-ary function;
 - Being n less than or equal to m, to transform it into a function with (m-n) parameters. Each time you provide some arguments, a new function is produced, with smaller arity. When you provide the last arguments, the actual calculations are performed
@@ -99,3 +100,11 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 ### partial currying
 
 - that can be seen as a mixture of the two previous transformations
+
+## CAP 8 - Connecting Functions - Pipelining and Composition
+
+Pipelining and composition are techniques for setting up functions to work in sequence, so the output from a function becomes the input to the next function.
+
+- Pipelining, a way to join functions together in similar way to Unix/Linux pipes
+- Chaining, which may be considered a variant of pipelining, but restricted to objects
+- Composing, which is a classic operation with its origins in basic computer theory
