@@ -103,6 +103,8 @@ A idéia é que uma função pode, em determinado momento, chamar a si mesma e, 
 
 ## CAP 8 - Connecting Functions - Pipelining and Composition
 
+Ways to create new functions out of combining previous existing ones.
+
 Pipelining and composition are techniques for setting up functions to work in sequence, so the output from a function becomes the input to the next function.
 
 - Pipelining, a way to join functions together in similar way to Unix/Linux pipes
@@ -110,3 +112,12 @@ Pipelining and composition are techniques for setting up functions to work in se
 - Composing, which is a classic operation with its origins in basic computer theory
 
 ## CAP 9 - Designing Functions - Recursion
+
+A Function calls itself, again and again, until it doesn't.
+1. Assume you already have an appropriate function to solve your problem.
+2. Then, see how the big problem can be solved by solving one (or more) smaller problems.
+3. Solve those problems by using the imagined function from step 1.
+4. Decide what are your base cases, simple enough that they be solved directly, not requiring any more calls.
+- Decrease and conquer
+- Divide and conquer
+- Dynamic programming
