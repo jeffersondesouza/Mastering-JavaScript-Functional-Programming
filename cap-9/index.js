@@ -1,1 +1,1 @@
-require("./decrease-conquer--power");
+require("./divide-to-conquer--hanoi");
