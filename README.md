@@ -121,3 +121,5 @@ A Function calls itself, again and again, until it doesn't.
 - Decrease and conquer
 - Divide and conquer
 - Dynamic programming
+
+## CAP 10 - Ensuring Purity - Immutability

@@ -1,1 +1,1 @@
-require("./divide-to-conquer--hanoi");
+require("./dimentional-array");
