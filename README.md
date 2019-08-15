@@ -114,12 +114,34 @@ Pipelining and composition are techniques for setting up functions to work in se
 ## CAP 9 - Designing Functions - Recursion
 
 A Function calls itself, again and again, until it doesn't.
+
 1. Assume you already have an appropriate function to solve your problem.
 2. Then, see how the big problem can be solved by solving one (or more) smaller problems.
 3. Solve those problems by using the imagined function from step 1.
 4. Decide what are your base cases, simple enough that they be solved directly, not requiring any more calls.
+
 - Decrease and conquer
 - Divide and conquer
 - Dynamic programming
 
 ## CAP 10 - Ensuring Purity - Immutability
+
+- Basic JS ways, such as freezing objects, plus cloning to create new ones instead of modifying existing objects;
+
+- Persistent data structures, with methods that allow updating them without changing the original and without the need to clone everything either, for higher performance
+
+### Funções nativas impuras no Javascript:
+
+- .fill()
+- .push() e .pop()
+- .shift() e .unshift()
+- .splice()
+- .reverse()
+- .sort()
+- .setters()
+
+Uma solução, por exemplo, pode ser a criação de coṕias com spred operators, mas pode intreferir na performance
+
+### Constantes
+- Mesmo marcados como cost, Objetos, mais preceisamente seus parâmetros podem ser modificados;
+- Nesse caso uma solução é fazer um Freezing aocriar o objeto
