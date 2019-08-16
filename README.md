@@ -150,8 +150,7 @@ Uma solução, por exemplo, pode ser a criação de coṕias com spred operators
 # CAP 11 - Implementing Design Patterns - The Functional Way
 
 Behavioral design patterns: These have to do with interactions and
-communications between objects. 
-
+communications between objects.
 
 Creational design patterns: They deal with ways to create objects in a manner
 that is suitable for the current problem, possibly guiding the selection between
@@ -160,3 +159,12 @@ several alternative objects.
 Structural design patterns: They have to do with the composition of objects,
 forming larger structures from many individual parts and implementing
 relationships between objects.
+
+# CAP 12 - Building Better Containers - Functional Data Types
+
+- Data types: from a functional point of view, because even though JavaScript is not a typed language, a better understanding of types and functions are needed
+
+- Containers: including functors and the mystifying monads, to better structure data flow
+
+- Functions as structures: in which we'll see yet another way of using functions
+  to represent data types, with immutability thrown in as an extra
