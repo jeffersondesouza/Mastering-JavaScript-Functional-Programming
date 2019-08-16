@@ -24,15 +24,19 @@ function reducer1(state = INITIAL_STATE, action) {
 
 console.log(reducer1({}, { type: "CREATE" }));
 console.log(reducer1({}, { type: "DELETADO" }));
+console.log("-------------");
+
+
+const CREATE = 'a:CREATE';
 
 const dispatchTable = {
-  CREATE: (state, action) => ({
-    ...INITIAL_STATE,
+  [CREATE]: (state, action) => ({
+    ...state,
     name: "OLA",
     users: [1, 2, 3]
   }),
   DELETADO: (state, action) => ({
-    ...INITIAL_STATE,
+    ...state,
     name: "DELETADO",
     users: []
   })
@@ -44,5 +48,5 @@ function reducer2(state = INITIAL_STATE, action) {
     : state;
 }
 
-console.log(reducer2({}, { type: "CREATE" }));
+console.log(reducer2({}, { type: "a:CREATE" }));
 console.log(reducer2({}, { type: "DELETADO" }));

@@ -143,5 +143,20 @@ A Function calls itself, again and again, until it doesn't.
 Uma solução, por exemplo, pode ser a criação de coṕias com spred operators, mas pode intreferir na performance
 
 ### Constantes
+
 - Mesmo marcados como cost, Objetos, mais preceisamente seus parâmetros podem ser modificados;
-- Nesse caso uma solução é fazer um Freezing aocriar o objeto
+- Nesse caso uma solução é fazer um Freezing aocriar o objeto.
+
+# CAP 11 - Implementing Design Patterns - The Functional Way
+
+Behavioral design patterns: These have to do with interactions and
+communications between objects. 
+
+
+Creational design patterns: They deal with ways to create objects in a manner
+that is suitable for the current problem, possibly guiding the selection between
+several alternative objects.
+
+Structural design patterns: They have to do with the composition of objects,
+forming larger structures from many individual parts and implementing
+relationships between objects.
