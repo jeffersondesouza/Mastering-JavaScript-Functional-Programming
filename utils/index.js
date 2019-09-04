@@ -25,6 +25,11 @@
   },
   
   */
+
+
+//  deepCopy pode me ajudar no parseador de snake to camel Case
+// cap 6 te muita coisa boa
+
 const unary = fn => (...args) => fn(args[0]);
 const isNull = x => x === null || x === undefined;
 const not = fn => (...args) => !fn(...args);
