@@ -32,6 +32,15 @@ const operacao2 = input => {
 };
 
 
+const operacao3 = input => {
+  return Maybe.of(input)
+    .map(doSomenthing1)
+    .map(doSomenthing2)
+    .map(doSomenthing3)
+    .get();
+};
+
+
 console.log("operacao: ", operacao(null));
 console.log("operacao: ", operacao(1));
 console.log("operacao: ", operacao(10));
